@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -121,7 +121,7 @@
     <main>
       <!-- Hero -->
       <section class="hero section">
-        <div class="container ">
+        <div class="container">
           <h1 class="hero-head">Effective Solutions for Your Business</h1>
           <button class="hero-button buttons" type="button" data-modal-open>Order Service</button>
         </div>
@@ -190,13 +190,26 @@
           <h2 class="section-title">What are we doing</h2>
           <ul class="doing-list list">
             <li class="doing-item">
-              <img src="./image/main/pc.jpg" alt="computer" width="360" height="300" />
-            </li>
-            <li class="doing-item">
-              <img src="./image/main/phone.jpg" alt="phone" width="360" height="300" />
+              <img
+                srcset="./image/main/pc.jpg 1x, ./image/main/pc@2x.jpg 2x"
+                src="./image/main/pc.jpg"
+                alt="computer"
+                width="360"
+                height="300"
+              />
             </li>
             <li class="doing-item">
               <img
+                srcset="./image/main/phone.jpg 1x, ./image/main/phone@2x.jpg 2x"
+                src="./image/main/phone.jpg"
+                alt="phone"
+                width="360"
+                height="300"
+              />
+            </li>
+            <li class="doing-item">
+              <img
+                srcset="./image/main/mobile.jpg 1x, ./image/main/mobile@2x.jpg 2x"
                 src="./image/main/mobile.jpg"
                 alt="phone_and_laptop"
                 width="360"
@@ -215,6 +228,7 @@
             <li class="team-item">
               <img
                 class="team-member"
+                srcset="./image/main/mark.jpg 1x, ./image/main/mark@2x.jpg 2x"
                 src="./image/main/mark.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -256,6 +270,7 @@
             <li class="team-item">
               <img
                 class="team-member"
+                srcset="./image/main/tom.jpg 1x, ./image/main/tom@2x.jpg 2x"
                 src="./image/main/tom.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -297,6 +312,7 @@
             <li class="team-item">
               <img
                 class="team-member"
+                srcset="./image/main/camila.jpg 1x, ./image/main/camila@2x.jpg 2x"
                 src="./image/main/camila.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -338,6 +354,7 @@
             <li class="team-item">
               <img
                 class="team-member"
+                srcset="./image/main/daniel.jpg 1x, ./image/main/daniel@2x.jpg 2x"
                 src="./image/main/daniel.jpg"
                 alt="Daniel Wilson"
                 width="264"
